@@ -36,4 +36,3 @@ price.addEventListener('keyup', () => {
 qtyInput.addEventListener('keyup', () => {
   subtotal.textContent = `Rp. ${total(price.value, qtyInput.value, codeInput.value)}`
 });
-

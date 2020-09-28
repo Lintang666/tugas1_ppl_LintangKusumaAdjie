@@ -32,5 +32,13 @@ function hitungDiskon(price, qty, kode) {
     return hasilDiskon;
 }
 
+module.exports = { 
+    incrementQty, 
+    decrementQty,
+    recalculateSubtotal,
+    absoluteQty,
+    total,
+    hitungDiskon
+};
 
     
