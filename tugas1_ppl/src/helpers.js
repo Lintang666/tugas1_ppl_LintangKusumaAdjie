@@ -25,6 +25,7 @@ function hitungDiskon(price, qty, kode) {
         case "KODE50":
             hasilDiskon = subTotal * 0.50;
             break;
+        default:
             hasilDiskon = 0;
             break;
     }
